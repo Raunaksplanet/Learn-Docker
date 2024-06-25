@@ -1,0 +1,13 @@
+1. docker info
+2. sudo service docker start
+3. sudo service docker status
+4. The docker -idt command in Docker is used to run a container in detached mode 
+with an interactive terminal. Here's a breakdown of the options:
+-i: Keep STDIN open even if not attached (interactive mode).
+-d: Run the container in detached mode (in the background).
+-t: Allocate a pseudo-TTY (terminal).
+
+5. sudo docker build -t myapp .
+6. sudo docker run -p 8080:80 myapp
+7. sudo docker stop <container id>
+8. sudo docks ps 
